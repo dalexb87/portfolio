@@ -15,7 +15,8 @@
 }
 
 .nav a, .nav-toggle {
-    color: darkcyan;
+    color: #5ab0e2;
+	font-weight: bolder;
 }
 
 .nav-toggle {
@@ -53,4 +54,16 @@
         text-align: center;
         cursor: pointer;
     }
+}
+
+@media (max-width: 767px) {
+
+	.article {
+
+	}
+	
+	.article img {
+		float: none;
+	}
+	
 }

@@ -7,7 +7,7 @@
             </a>
         </div>
         {% endif %}
-        <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+        <div {{ pages["_meta"].meta.tagline ? ' class="title tagline"' }}>
             <a href="{{ base_url }}">
                 <h1>{{ site_title }}</h1>
                 {{ pages["_meta"].meta.tagline|markdown }}
