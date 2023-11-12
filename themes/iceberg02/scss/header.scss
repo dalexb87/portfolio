@@ -1,0 +1,42 @@
+/* header.scss */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title {	
+        padding: 1em 1em 1em 0;
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }	
+}
+
+.title {
+    * {
+        color: vars.$primary-color;
+        font-weight: bolder;	
+    }
+	
+    p {
+        font-style: italic;		
+    }
+}
+
+.nav {
+    a {
+        text-decoration: none;
+    }
+	
+    .active {
+        border-bottom: 5px solid vars.$primary-color;
+    }
+}

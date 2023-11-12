@@ -7,8 +7,7 @@ Description: This is our index page.
 	<img src="%assets_url%/img/me.jpg" alt="me" class="me">
 </figure>
 
-## Om mig
-
+## Om mig {.pen-icon}
 
 
 Hallå! Mitt namn är Daniel Blom och det här är första gången som jag lär mig om git och github,

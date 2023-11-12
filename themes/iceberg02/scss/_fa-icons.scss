@@ -1,0 +1,22 @@
+/* Custom FontAwesome icons */
+
+.pen-icon::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;    
+    content: "\f304";
+    margin: 1rem;
+}
+
+.lightbulb-icon::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;    
+    content: "\f0eb";
+    margin: 1rem;
+}
+
+.doc-icon::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;    
+    content: "\f15b";
+    margin: 1rem;
+}
