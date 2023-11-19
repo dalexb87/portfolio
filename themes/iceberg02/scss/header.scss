@@ -11,19 +11,26 @@
 
 @media (max-width: 767px) {
     .title {	
-        padding: 1em 1em 1em 0;
+        padding: 2em 0 2em 1em;
         min-width: 50%;
     }
     
     .logo {
-        max-width: 30%;
+        max-width: 40%;
     }	
 }
 
 .title {
     * {
         color: vars.$primary-color;
-        font-weight: bolder;	
+        letter-spacing: 0.1em;
+        text-decoration: none;
+    }
+    
+    h4 {
+
+        text-transform: uppercase;
+ 
     }
 	
     p {

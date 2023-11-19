@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .grid {   
+        .one-span {
+            grid-column: span 3;
+        }
+        
+        .two-span {
+            grid-column: span 3;
+        }
+        
+        .three-span {
+            grid-column: span 3;
+        }
+    }
+    
+    .flex {
+        .tech-menu {
+            display:none;
+        }
+        
+        .main-content {
+            width: 100%;
+        }
+    }
+}
