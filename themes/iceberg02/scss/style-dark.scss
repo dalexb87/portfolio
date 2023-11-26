@@ -1,16 +1,16 @@
 @use 'font-awesome';
 @use 'fa-icons';
 @use 'google-fonts';
-@use 'vars';
+@use 'vars-dark-theme';
 
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'header';
-@import 'technology';
-@import 'blockquotes';
-@import 'code';
-@import 'mobile-menu';
-@import 'footer';
+@import 'header-dark-theme';
+@import 'technology-dark-theme';
+@import 'blockquotes-dark-theme';
+@import 'code-dark-theme';
+@import 'mobile-menu-dark-theme';
+@import 'footer-dark-theme';
 @import 'responsive';
 
 * {
@@ -32,7 +32,7 @@ html, body {
 body { 
     display: flex;
     flex-direction: column;
-    background-color: vars.$body-color;
+    background-color: vars-dark-theme.$body-color;
     line-height: 1.5;
     color: #FFF;
     overflow-y: scroll;
@@ -47,18 +47,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: vars.$primary-color;   
+    color: vars-dark-theme.$primary-color-lighter;   
     letter-spacing: 0.1em;
 }
 
 h1 {
     font-size: 2.8em;
-    color: vars.$primary-color;
 }
 
 h2 {
     font-size: 2.5em;
-    color: vars.$primary-color;
 }
 
 /*
@@ -70,9 +68,9 @@ img {
 .main {
     flex: 1 0 auto;
     padding: 2em 0;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
-    background-image: vars.$primary-gradient;
+    border-top: 1px solid vars-dark-theme.$primary-color-lighter;
+    border-bottom: 1px solid vars-dark-theme.$primary-color-lighter;
+    background-color: vars-dark-theme.$primary-color-darker;
 }
 
 .article {
@@ -80,8 +78,16 @@ img {
     max-width: 960px;
     overflow: hidden;
     padding: 2em;
-    background-color: #FFF;
-    color: #666;
+    background-color: vars-dark-theme.$primary-color;
+    color: vars-dark-theme.$body-text;
+    
+    a {
+        color: vars-dark-theme.$primary-color-lighter;
+    }
+    
+    a:hover {
+        color: vars-dark-theme.$accent-color;
+    }
 }
 
 figure {
@@ -89,10 +95,11 @@ figure {
 }
 
 .me {
-    border: double;
+    border: double vars-dark-theme.$primary-color-darker;
     max-width: 250px;
     margin-right: 1.5em;
     padding: 0.25em;
+    filter: brightness(85%);
 }
 
 p, td, th, li, dd {
@@ -111,15 +118,15 @@ ol, ul {
 
 .header, .footer {
     padding: 2em;
-    color: vars.$primary-color;
+    color: vars-dark-theme.$body-text;
     font-size: 1.2em;
     //background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-    background-color: #FFF;
+    background-color: vars-dark-theme.$primary-color;
 }
 
 .header {
     img {
-        background-image: url("../../../assets/img/logo.png");
+        background-image: url("../../../assets/img/logo-dark.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -128,20 +135,25 @@ ol, ul {
 
 .website-screencap {
     max-width: 100%;
-    background-color: vars.$primary-color-lighter;
-    border: double vars.$primary-color-lighter;
+    filter: brightness(90%);
+    background-color: vars-dark-theme.$primary-color-darker;
+    border: double vars-dark-theme.$primary-color-darker;
     padding: 0.25em;
 }
 
 table {
-    background-color: vars.$primary-color-lighter;
+    background-color: vars-dark-theme.$primary-color-darker;
     padding: 0.5em;
+    
+    td {
+        border: 2px solid vars-dark-theme.$body-text;
+    }
 }
 
 /* Github icon */
 .fab,
 .fas{
-    color: vars.$primary-color;
+    color: vars-dark-theme.$accent-color;
     font-size: 1.8em;
     margin-right: 1rem;
     margin: 1rem;
@@ -149,5 +161,5 @@ table {
 
 .fab:hover,
 .fas:hover{
-    color: vars.$primary-color-lighter;
+    color: vars-dark-theme.$primary-color-lighter;
 }

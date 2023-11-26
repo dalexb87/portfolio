@@ -4,3 +4,7 @@ $accent-color: #ee6c4d;
 $body-color: #FFF;
 $primary-color: #5ab0e2;
 $primary-color-lighter: #8dd9ff;
+$primary-color-darker: #78A;
+$primary-color-analog: #5AE2D0;
+$primary-gradient: linear-gradient(90deg, $primary-color-lighter 0%, $primary-color-analog 100%);
+

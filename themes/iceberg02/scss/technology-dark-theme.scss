@@ -22,11 +22,10 @@
 
 .box {
     
-    border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: vars.$primary-color-darker;
+    background-color: vars-dark-theme.$primary-color-darker;
     cursor: pointer;
-    box-shadow: 8px 8px 10px -1px rgb(204, 204, 204);
+    box-shadow: 8px 8px 10px -1px vars-dark-theme.$primary-color-darker;
     
     a {
         display:inline-block;
@@ -35,14 +34,14 @@
         text-align: center;
         padding: 2em;
         text-decoration: none;
-        color: #FFF;
+        color: vars-dark-theme.$body-text !important;
         font-weight: bolder;
         font-size: 1.5rem;
         transition: all .5s;
     }
     
     a:hover {
-        color: vars.$primary-color;
+        color: vars-dark-theme.$primary-color !important;
     }
     
     :hover {
@@ -58,12 +57,12 @@
 
     width: 30%;
     margin-right: 3em;
-    border-right: 1px solid vars.$primary-color;
+    border-right: 1px solid vars-dark-theme.$primary-color-lighter;
     
     h4 {
-        background-color: vars.$primary-color-darker;
+        background-color: vars-dark-theme.$primary-color-darker;
         padding-left: 1rem;
-        color: #FFF;
+        color: vars-dark-theme.$body-text;
     }
     
     a {
@@ -71,11 +70,11 @@
         padding-left: 1em;
         font-size: 1.2em;
         letter-spacing: 0.1rem;
-        color: vars.$primary-color;
+        color: vars-dark-theme.$primary-color-lighter;
     }
     
     a:hover {
-        color: vars.$primary-color-lighter;
+        color: vars-dark-theme.$accent-color;
     }
 }
 

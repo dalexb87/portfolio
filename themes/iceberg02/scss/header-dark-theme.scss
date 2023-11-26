@@ -1,0 +1,49 @@
+/* header-dark-theme.scss */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title {	
+        padding: 2em 0 2em 1em;
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 40%;
+    }	
+}
+
+.title {
+    * {
+        color: vars-dark-theme.$primary-color-lighter;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+    }
+    
+    h4 {
+
+        text-transform: uppercase;
+ 
+    }
+	
+    p {
+        font-style: italic;		
+    }
+}
+
+.nav {
+    a {
+        text-decoration: none;
+    }
+	
+    .active {
+        border-bottom: 5px solid vars-dark-theme.$accent-color;
+    }
+}

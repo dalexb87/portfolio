@@ -1,4 +1,8 @@
-@media (max-width: 767px) {
+@media (max-width: 767px) {   
+    .main {
+        padding: 0 !important;
+    }
+    
     .grid {   
         .one-span {
             grid-column: span 3;
@@ -21,5 +25,20 @@
         .main-content {
             width: 100%;
         }
+    }
+}
+
+@media (max-width: 767px) {     
+    .footer .row {     
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .footer .row > .col3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
     }
 }

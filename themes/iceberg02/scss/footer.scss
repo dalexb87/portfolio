@@ -1,15 +1,36 @@
 /* Footer */
 
-.footer {
+.footer .row {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    width: 100%;
 }
 
-.footer a {
-    color: vars.$font-color;
+.footer .row > .col3 {
+    width: calc(100% / 3);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.footer .social {
-    font-size: 2rem;
+.footer .row > .col1 {
+    width: 100%;
+}
+
+.copyright {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer {  
+    a {
+        color: vars.$font-color;
+        text-decoration: none;       
+    }
+    
+    .social {
+        font-size: 2rem;  
+    }
 }
