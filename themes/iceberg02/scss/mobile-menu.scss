@@ -23,9 +23,13 @@
     display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
     .header {
         flex-direction: column;
+        
+        .fa, .fas {
+            font-size: 2rem;
+        }
     }
     
     .nav {
@@ -67,6 +71,7 @@
         float: right;
         width: 2em;
         margin: 0.6667em 0;
+        padding: 0 2rem;
         font-size: 1.5rem;
         line-height: 2em;
         text-align: center;

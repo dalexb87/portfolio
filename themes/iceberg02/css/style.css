@@ -6455,7 +6455,7 @@ template {
 }
 
 .title, .logo {
-  padding: 3em 3em 3em 0;
+  padding: 2em 0;
 }
 
 @media (max-width: 767px) {
@@ -6620,9 +6620,12 @@ pre code {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .header {
     flex-direction: column;
+  }
+  .header .fa, .header .fas {
+    font-size: 2rem;
   }
   .nav {
     background-color: #FFF;
@@ -6655,6 +6658,7 @@ pre code {
     float: right;
     width: 2em;
     margin: 0.6667em 0;
+    padding: 0 2rem;
     font-size: 1.5rem;
     line-height: 2em;
     text-align: center;
@@ -6703,14 +6707,20 @@ pre code {
   .main {
     padding: 0 !important;
   }
-  .grid .one-span {
+  .grid .one-span,
+  .gallery .one-span {
     grid-column: span 3;
   }
-  .grid .two-span {
+  .grid .two-span,
+  .gallery .two-span {
     grid-column: span 3;
   }
-  .grid .three-span {
+  .grid .three-span,
+  .gallery .three-span {
     grid-column: span 3;
+  }
+  .gallery img {
+    width: 100%;
   }
   .flex .tech-menu {
     display: none;
@@ -6780,11 +6790,13 @@ h2 {
   color: #5ab0e2;
 }
 
-/*
-img {
-    max-width: 100%;
+article img,
+article embed,
+article object,
+article video {
+  max-width: 100%;
 }
-*/
+
 .main {
   flex: 1 0 auto;
   padding: 2em 0;
@@ -6795,7 +6807,7 @@ img {
 
 .article {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   overflow: hidden;
   padding: 2em;
   background-color: #FFF;
@@ -6841,6 +6853,46 @@ ol, ul {
   background-size: cover;
 }
 
+/* gallery page */
+.gallery {
+  display: grid;
+  grid-gap: 2em;
+}
+.gallery h1 {
+  grid-column: span 3;
+}
+.gallery img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 8px 8px 10px -1px rgb(204, 204, 204);
+  filter: brightness(90%);
+}
+.gallery img:hover {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  transition: all 0.5s;
+  filter: brightness(110%);
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 01_colors.md */
 .website-screencap {
   max-width: 100%;
   background-color: #8dd9ff;
@@ -6851,6 +6903,12 @@ ol, ul {
 table {
   background-color: #8dd9ff;
   padding: 0.5em;
+}
+
+/* 02_load.md */
+.pageload-spreadsheet {
+  width: 100%;
+  height: 600px;
 }
 
 /* Github icon */
