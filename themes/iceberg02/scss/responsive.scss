@@ -1,9 +1,10 @@
 @media (max-width: 767px) {   
     .main {
-        padding: 0 !important;
+        // padding: 0 !important;
     }
     
-    .grid {   
+    .grid,
+    .gallery {   
         .one-span {
             grid-column: span 3;
         }
@@ -17,6 +18,12 @@
         }
     }
     
+    .gallery {
+        img {
+            width: 100%;
+        }
+    }
+    
     .flex {
         .tech-menu {
             display:none;
@@ -27,6 +34,7 @@
         }
     }
 }
+
 
 @media (max-width: 767px) {     
     .footer .row {     

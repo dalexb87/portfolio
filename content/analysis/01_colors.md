@@ -16,8 +16,6 @@ Jag ska efter granskning av webbplatserna här sedan skriva en rapport som visar
 Urval
 -----------------------
 
-Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
-
 Webbplatserna som jag valt att undersöka i denna uppgift är:
 
 - [Blomsterlandet](https://www.blomsterlandet.se)
@@ -32,8 +30,6 @@ Jag har även valt att studera en Amerikansk webbplats för att se om det skilje
 
 Metod
 -----------------------
-
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
 
 För att "plocka" ut färgerna från webbplatserna har jag helt enkelt använt mig av pimpetten som finns i inspect element (Ctrl-Shft-C i Windows), jag har sedan använt mig av [Color-calculator](https://www.sessions.edu/color-calculator/) för att ta reda på vad för färgschema som man använt.<br>
 <br>Till sist har jag sett till kursboken *The Principles of Beautiful Web Design* (2020) i kapitlet om färger för att se vad för känslor som olika färger kan tänkas inspirera hos de flesta människor.
@@ -53,13 +49,13 @@ Resultat
         <td style="height: 50px; width: 50px; background-color: #3c2008">
         <td style="height: 50px; width: 50px; background-color: #983c36">
         <td style="height: 50px; width: 50px; background-color: #194563">
-        <td style="height: 50px; width: 50px; background-color: #ffd700">
     </tr>
     <tr>
         <td style="height: 50px; width: 50px; background-color: #fdede9">
         <td style="height: 50px; width: 50px; background-color: #e8f0e1">
         <td style="height: 50px; width: 50px; background-color: #e3eff4">
-        <td style="height: 50px; width: 50px; background-color: #ece8df"> 
+        <td style="height: 50px; width: 50px; background-color: #ece8df">
+        <td style="height: 50px; width: 50px; background-color: #ffd700">
     </tr>
 </table>
 <br>
@@ -121,7 +117,7 @@ Sist men inte minst har vi [Gardeners](https://www.gardeners.com) - en Amerikans
 
 Typsnittet som tycks användas för samtlig text på webbplatsen heter **"adelle condensed"** och det finns inte så mycket att säga om det. Faktum är att jag har svårt att ens se någon markant skillnad på alla de typsnittet som använts på de 3 webbplatserna jag utvärderat - med undantag från **"Messina Sans Condensed"** som jag tidigare nämnt tyckte hade för stramt teckenavstånd.
 
-Helhetsintrycket jag får av Gardeners är att man funnit balansen i sitt färgval - man har lyckats skapa en palette som passar för temat, naturfärger. Med några få inslag av accentfärgar som är där för att dra blickarna till sig. Överlag är det bra kontraster, dock kanske en *gnutta* för ljus orange som bakgrundsfärg för knapparna med tanke på den vita texten.
+Helhetsintrycket jag får av Gardeners är att man funnit balansen i sitt färgval - man har lyckats skapa en palette som passar för temat, naturfärger. Med några få inslag av accentfärger som är där för att dra blickarna till sig. Överlag är det bra kontraster, dock kanske en *gnutta* för ljus orange som bakgrundsfärg för knapparna med tanke på den vita texten.
 
 Analys
 -----------------------
@@ -129,7 +125,7 @@ Analys
 
 ### Blomsterlandet
 
-Som synes använder Blomsterlandet ett flertal färger och huvudsakligen två olika färscheman. De gröna nyanserna är inget att argumentera om och passar för webbplatsens profil som blomster/trädgårdshandel då de gröna monokromatiska färgerna inspirerar natur och tillväxt (*The Principles of Beautiful Web Design*, 2020). Likaså lyckas den gula accentfärgen locka blicken till logotypen samtidigt som det kan likna en färgglad blomma man finner ute i naturen (ex. maskrosen).
+Som synes använder Blomsterlandet ett flertal färger och huvudsakligen två olika färgscheman. De gröna nyanserna är inget att argumentera om och passar för webbplatsens profil som blomster/trädgårdshandel då de gröna monokromatiska färgerna inspirerar natur och tillväxt (*The Principles of Beautiful Web Design*, 2020). Likaså lyckas den gula accentfärgen locka blicken till logotypen samtidigt som det kan likna en färgglad blomma man finner ute i naturen (ex. maskrosen).
 
 När det kommer till de diffusa palettfärgerna som används rätt friskt runt om webbplatsen kan man dock ställa frågan om en mer jordlig färg kanske hade passat bättre? Det triadiska färgschemat må vara blekt och tar därför ett steg tillbaka men personligen hade jag velat se mer gröna nyanser och att det monokromatiska färgschemat utvecklats vidare, samt att man istället använt sig av andra naturfärger.
 
