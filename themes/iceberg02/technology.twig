@@ -7,6 +7,7 @@
         <div class="flex article">
             <aside class="tech-menu">
                 <h4>Techs</h4>
+                <br>
                 {% for page in pages("technology") %}
                     <a href="{{ page.url }}">{{ page.title }}</a><br>
                 {% endfor %}

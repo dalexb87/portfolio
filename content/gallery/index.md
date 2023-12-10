@@ -79,7 +79,7 @@ Description: This is our Gallery page.
     </div>
 </div>
 <br>    
-### Källor
+## Källor
 
 -
  <a href="https://unsplash.com/photos/snow-covered-mountain-during-daytime-kmilKN4Stsg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Photo</a> by Matt Palmer
@@ -106,5 +106,5 @@ Description: This is our Gallery page.
 <a href="https://unsplash.com/photos/standing-penguin-on-sand-near-snow-covered-mountain-covering-the-sun-from-view-at-daytime-TLcLDigmTKE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Photo</a> by Ian Parker
   
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/R_SzdwSMZKY" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/R_SzdwSMZKY" allowfullscreen></iframe>
 </div>

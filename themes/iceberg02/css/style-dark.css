@@ -6457,15 +6457,20 @@ template {
 
 .title, .logo {
   padding: 2em 0;
+  margin-right: 2em;
 }
 
 @media (max-width: 767px) {
   .title {
     padding: 2em 0 2em 1em;
-    min-width: 50%;
   }
   .logo {
     max-width: 40%;
+  }
+}
+@media (max-width: 640px) {
+  .logo {
+    display: none;
   }
 }
 .title * {
@@ -6620,7 +6625,7 @@ pre code {
   display: none;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1120px) {
   .header {
     flex-direction: column;
   }
@@ -6711,9 +6716,6 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .main {
-    padding: 0 !important;
-  }
   .grid .one-span,
   .gallery .one-span {
     grid-column: span 3;
@@ -6774,25 +6776,26 @@ body {
   overflow-y: scroll;
 }
 
-p {
-  font-size: 1.2em;
-  margin-bottom: 1.8rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", sans-serif;
   font-size: 2rem;
-  margin-bottom: 2rem;
   color: #d1ecff;
   letter-spacing: 0.1em;
+  line-height: 2;
 }
 
 h1 {
   font-size: 2.8em;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 0.67em;
 }
 
 article img,
@@ -6818,6 +6821,12 @@ article video {
   background-color: #283C64;
   color: #ececec;
 }
+.article ol, .article ul {
+  margin: 2em 0;
+}
+.article ul li {
+  margin-bottom: 1em;
+}
 .article a {
   color: #d1ecff;
 }
@@ -6841,6 +6850,12 @@ p, td, th, li, dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  line-height: 1.8;
 }
 
 ol, ul {
@@ -6886,9 +6901,14 @@ table td {
 .gallery {
   display: grid;
   grid-gap: 2em;
+  background-color: #046;
+  padding: 2em;
+  outline: 4px double #d1ecff;
 }
 .gallery h1 {
   grid-column: span 3;
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
 }
 .gallery img {
   display: block;

@@ -38,25 +38,27 @@ body {
     overflow-y: scroll;
 }
 
-p {
-    font-size: 1.2em;
-    margin-bottom: 1.8rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    //margin-bottom: 2rem;
     color: vars-dark-theme.$primary-color-lighter;   
     letter-spacing: 0.1em;
+    line-height: 2;
 }
 
 h1 {
     font-size: 2.8em;
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0.67em;
 }
 
 article img,
@@ -81,6 +83,14 @@ article video {
     padding: 2em;
     background-color: vars-dark-theme.$primary-color;
     color: vars-dark-theme.$body-text;
+    
+    ol, ul {
+        margin: 2em 0;
+    }
+    
+    ul li {
+        margin-bottom: 1em;
+    }
     
     a {
         color: vars-dark-theme.$primary-color-lighter;
@@ -107,6 +117,12 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    line-height: 1.8;
 }
 
 ol, ul {
@@ -156,9 +172,14 @@ table {
 .gallery {
     display: grid;
     grid-gap: 2em;
+    background-color: #046;
+    padding: 2em;
+    outline: 4px double vars-dark-theme.$primary-color-lighter;
     
     h1 {
         grid-column: span 3;
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
     }
 
     

@@ -38,27 +38,27 @@ body {
     overflow-y: scroll;
 }
 
-p {
-    font-size: 1.2em;
-    margin-bottom: 1.8rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', sans-serif;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
     color: vars.$primary-color;   
     letter-spacing: 0.1em;
+    line-height: 2;
 }
 
 h1 {
     font-size: 2.8em;
-    color: vars.$primary-color;
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 2.5em;
-    color: vars.$primary-color;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0.67em;
 }
 
 article img,
@@ -83,6 +83,14 @@ article video {
     padding: 2em;
     background-color: #FFF;
     color: #666;
+    
+    ol, ul {
+        margin: 2em 0;
+    }
+    
+    ul li {
+        margin-bottom: 1em;
+    }
 }
 
 figure {
@@ -100,6 +108,12 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    line-height: 1.8;
 }
 
 ol, ul {
@@ -130,10 +144,15 @@ ol, ul {
 /* gallery page */
 .gallery {
     display: grid;
-    grid-gap: 2em;
+    grid-gap: 2em;    
+    background-color: #eff;
+    padding: 2em;
+    outline: 4px double vars.$primary-color;
     
     h1 {
         grid-column: span 3;
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
     }
     
     img {
@@ -169,6 +188,7 @@ ol, ul {
         height: 100%;    
     }
 }
+
 
 /* 01_colors.md */
 .website-screencap {
