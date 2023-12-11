@@ -42,7 +42,7 @@ Resultat
 
 ![bild på blomsterlandets webbsida](%assets_url%/img/blomsterlandet.jpg){.website-screencap}
 
-<table style="border-spacing: 4px; border-collapse: separate">
+<table style="border-spacing: 4px; border-collapse: separate" class="color-table">
     <tr>
         <td style="height: 50px; width: 50px; background-color: #19513e">
         <td style="height: 50px; width: 50px; background-color: #003c2e">
@@ -58,7 +58,6 @@ Resultat
         <td style="height: 50px; width: 50px; background-color: #ffd700">
     </tr>
 </table>
-<br>
 
 Man kan säga att [Blomsterlandet](https://www.blomsterlandet.se) har grönt som primärfärg och huvudsakligen har ett **monokromatiskt färgschema** om man ser till sidhuvud och sidfoten.<br>
 <br>

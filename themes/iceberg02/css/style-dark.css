@@ -6479,9 +6479,11 @@ template {
   text-decoration: none;
 }
 .title h4 {
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .title p {
+  font-size: 1.5em;
   font-style: italic;
 }
 
@@ -6699,6 +6701,7 @@ pre code {
   display: inline-block;
   text-align: center;
   padding: 2rem 0;
+  font-size: 1.25em;
 }
 
 .footer h1,
@@ -6707,11 +6710,12 @@ pre code {
 .footer h4 {
   color: #ececec;
 }
+.footer h2 {
+  font-size: 1.5em;
+}
 .footer a {
   color: #ececec;
   text-decoration: none;
-}
-.footer .social {
   font-size: 2rem;
 }
 
@@ -6889,11 +6893,11 @@ ol, ul {
   padding: 0.25em;
 }
 
-table {
+.color-table {
   background-color: #0D254B;
   padding: 0.5em;
 }
-table td {
+.color-table td {
   border: 2px solid #ececec;
 }
 

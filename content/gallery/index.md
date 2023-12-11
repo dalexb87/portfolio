@@ -106,5 +106,5 @@ Description: This is our Gallery page.
 <a href="https://unsplash.com/photos/standing-penguin-on-sand-near-snow-covered-mountain-covering-the-sun-from-view-at-daytime-TLcLDigmTKE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Photo</a> by Ian Parker
   
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/R_SzdwSMZKY" allowfullscreen></iframe>
+    <iframe title="Our Frozen Planet" src="https://www.youtube.com/embed/R_SzdwSMZKY" allowfullscreen></iframe>
 </div>

@@ -53,6 +53,7 @@ Below we've shown some examples of locations and their corresponding URLs:
     </tbody>
 </table>
 
+<br>
 If a file cannot be found, the file `content/404.md` will be shown. You can add
 `404.md` files to any directory. So, for example, if you wanted to use a special
 error page for your blog, you could simply create `content/blog/404.md`.

@@ -6473,22 +6473,24 @@ template {
   }
 }
 .title * {
-  color: #5ab0e2;
+  color: #4f9ac6;
   letter-spacing: 0.1em;
   text-decoration: none;
 }
 .title h4 {
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .title p {
   font-style: italic;
+  font-size: 1.5em;
 }
 
 .nav a {
   text-decoration: none;
 }
 .nav .active {
-  border-bottom: 5px solid #5ab0e2;
+  border-bottom: 5px solid #4f9ac6;
 }
 
 .grid {
@@ -6529,7 +6531,7 @@ template {
   transition: all 0.5s;
 }
 .box a:hover {
-  color: #5ab0e2;
+  color: #4f9ac6;
 }
 .box :hover {
   background-color: #FFF;
@@ -6542,7 +6544,7 @@ template {
 .tech-menu {
   width: 30%;
   margin-right: 3em;
-  border-right: 1px solid #5ab0e2;
+  border-right: 1px solid #4f9ac6;
 }
 .tech-menu h4 {
   background-color: #78A;
@@ -6554,7 +6556,7 @@ template {
   padding-left: 1em;
   font-size: 1.2em;
   letter-spacing: 0.1rem;
-  color: #5ab0e2;
+  color: #4f9ac6;
 }
 .tech-menu a:hover {
   color: #8dd9ff;
@@ -6576,8 +6578,6 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background-color: #5ab0e2;
-  color: #fff;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6587,7 +6587,6 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background-color: #5ab0e2;
 }
 
 pre code {
@@ -6698,13 +6697,15 @@ pre code {
   display: inline-block;
   text-align: center;
   padding: 2rem 0;
+  font-size: 1.25em;
 }
 
+.footer h2 {
+  font-size: 1.5em;
+}
 .footer a {
   color: #333;
   text-decoration: none;
-}
-.footer .social {
   font-size: 2rem;
 }
 
@@ -6772,7 +6773,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", sans-serif;
   font-size: 2rem;
-  color: #5ab0e2;
+  color: #4f9ac6;
   letter-spacing: 0.1em;
   line-height: 2;
 }
@@ -6854,7 +6855,7 @@ ol, ul {
 
 .header, .footer {
   padding: 2em;
-  color: #5ab0e2;
+  color: #4f9ac6;
   font-size: 1.2em;
   background-color: #FFF;
 }
@@ -6872,7 +6873,7 @@ ol, ul {
   grid-gap: 2em;
   background-color: #eff;
   padding: 2em;
-  outline: 4px double #5ab0e2;
+  outline: 4px double #4f9ac6;
 }
 .gallery h1 {
   grid-column: span 3;
@@ -6918,9 +6919,10 @@ ol, ul {
   padding: 0.25em;
 }
 
-table {
+.color-table {
   background-color: #8dd9ff;
   padding: 0.5em;
+  margin: 2em 0;
 }
 
 /* 02_load.md */
@@ -6932,7 +6934,7 @@ table {
 /* Github icon */
 .fab,
 .fas {
-  color: #5ab0e2;
+  color: #4f9ac6;
   font-size: 1.8em;
   margin-right: 1rem;
   margin: 1rem;

@@ -198,9 +198,10 @@ ol, ul {
     padding: 0.25em;
 }
 
-table {
+.color-table {
     background-color: vars.$primary-color-lighter;
     padding: 0.5em;
+    margin: 2em 0;
 }
 
 /* 02_load.md */

@@ -58,7 +58,7 @@ Resultat
 
 ### Datainsamling
 
-<iframe class="pageload-spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQqinpV3Z_08TlXpflX1S3YPL2Gfy-0AycJsHDujMnnIw44wiq2fVHgYKarN9_XvU8TIqyRPW_ecby/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="pageload" class="pageload-spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQqinpV3Z_08TlXpflX1S3YPL2Gfy-0AycJsHDujMnnIw44wiq2fVHgYKarN9_XvU8TIqyRPW_ecby/pubhtml?widget=true&amp;headers=false"></iframe>
 <br>
 
 I detta kalkylblad går det enkelt att se vilka webbplatser och respektive undersidor som har undersökts i denna uppgift. Förutom webbplatsernas landningssidor är de sidor som jag har kollat på följande:
